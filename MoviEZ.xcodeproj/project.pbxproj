@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80422A112726DEAC00F33EF4 /* MoviEZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80422A102726DEAC00F33EF4 /* MoviEZApp.swift */; };
+		80422A132726DEAC00F33EF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80422A122726DEAC00F33EF4 /* ContentView.swift */; };
+		80422A152726DEAE00F33EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80422A142726DEAE00F33EF4 /* Assets.xcassets */; };
+		80422A182726DEAE00F33EF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80422A172726DEAE00F33EF4 /* Preview Assets.xcassets */; };
+		80422A222726DEAF00F33EF4 /* MoviEZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80422A212726DEAF00F33EF4 /* MoviEZTests.swift */; };
+		80422A2C2726DEAF00F33EF4 /* MoviEZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80422A2B2726DEAF00F33EF4 /* MoviEZUITests.swift */; };
+		80422A2E2726DEAF00F33EF4 /* MoviEZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80422A2D2726DEAF00F33EF4 /* MoviEZUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80422A1E2726DEAF00F33EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80422A052726DEAC00F33EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80422A0C2726DEAC00F33EF4;
+			remoteInfo = MoviEZ;
+		};
+		80422A282726DEAF00F33EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80422A052726DEAC00F33EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80422A0C2726DEAC00F33EF4;
+			remoteInfo = MoviEZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80422A0D2726DEAC00F33EF4 /* MoviEZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviEZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80422A102726DEAC00F33EF4 /* MoviEZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviEZApp.swift; sourceTree = "<group>"; };
+		80422A122726DEAC00F33EF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80422A142726DEAE00F33EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80422A172726DEAE00F33EF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80422A1D2726DEAF00F33EF4 /* MoviEZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviEZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80422A212726DEAF00F33EF4 /* MoviEZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviEZTests.swift; sourceTree = "<group>"; };
+		80422A272726DEAF00F33EF4 /* MoviEZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviEZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80422A2B2726DEAF00F33EF4 /* MoviEZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviEZUITests.swift; sourceTree = "<group>"; };
+		80422A2D2726DEAF00F33EF4 /* MoviEZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviEZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80422A0A2726DEAC00F33EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80422A1A2726DEAF00F33EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80422A242726DEAF00F33EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80422A042726DEAC00F33EF4 = {
+			isa = PBXGroup;
+			children = (
+				80422A0F2726DEAC00F33EF4 /* MoviEZ */,
+				80422A202726DEAF00F33EF4 /* MoviEZTests */,
+				80422A2A2726DEAF00F33EF4 /* MoviEZUITests */,
+				80422A0E2726DEAC00F33EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80422A0E2726DEAC00F33EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80422A0D2726DEAC00F33EF4 /* MoviEZ.app */,
+				80422A1D2726DEAF00F33EF4 /* MoviEZTests.xctest */,
+				80422A272726DEAF00F33EF4 /* MoviEZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80422A0F2726DEAC00F33EF4 /* MoviEZ */ = {
+			isa = PBXGroup;
+			children = (
+				80422A102726DEAC00F33EF4 /* MoviEZApp.swift */,
+				80422A122726DEAC00F33EF4 /* ContentView.swift */,
+				80422A142726DEAE00F33EF4 /* Assets.xcassets */,
+				80422A162726DEAE00F33EF4 /* Preview Content */,
+			);
+			path = MoviEZ;
+			sourceTree = "<group>";
+		};
+		80422A162726DEAE00F33EF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80422A172726DEAE00F33EF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80422A202726DEAF00F33EF4 /* MoviEZTests */ = {
+			isa = PBXGroup;
+			children = (
+				80422A212726DEAF00F33EF4 /* MoviEZTests.swift */,
+			);
+			path = MoviEZTests;
+			sourceTree = "<group>";
+		};
+		80422A2A2726DEAF00F33EF4 /* MoviEZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80422A2B2726DEAF00F33EF4 /* MoviEZUITests.swift */,
+				80422A2D2726DEAF00F33EF4 /* MoviEZUITestsLaunchTests.swift */,
+			);
+			path = MoviEZUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80422A0C2726DEAC00F33EF4 /* MoviEZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80422A312726DEAF00F33EF4 /* Build configuration list for PBXNativeTarget "MoviEZ" */;
+			buildPhases = (
+				80422A092726DEAC00F33EF4 /* Sources */,
+				80422A0A2726DEAC00F33EF4 /* Frameworks */,
+				80422A0B2726DEAC00F33EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoviEZ;
+			productName = MoviEZ;
+			productReference = 80422A0D2726DEAC00F33EF4 /* MoviEZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80422A1C2726DEAF00F33EF4 /* MoviEZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80422A342726DEAF00F33EF4 /* Build configuration list for PBXNativeTarget "MoviEZTests" */;
+			buildPhases = (
+				80422A192726DEAF00F33EF4 /* Sources */,
+				80422A1A2726DEAF00F33EF4 /* Frameworks */,
+				80422A1B2726DEAF00F33EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80422A1F2726DEAF00F33EF4 /* PBXTargetDependency */,
+			);
+			name = MoviEZTests;
+			productName = MoviEZTests;
+			productReference = 80422A1D2726DEAF00F33EF4 /* MoviEZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80422A262726DEAF00F33EF4 /* MoviEZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80422A372726DEAF00F33EF4 /* Build configuration list for PBXNativeTarget "MoviEZUITests" */;
+			buildPhases = (
+				80422A232726DEAF00F33EF4 /* Sources */,
+				80422A242726DEAF00F33EF4 /* Frameworks */,
+				80422A252726DEAF00F33EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80422A292726DEAF00F33EF4 /* PBXTargetDependency */,
+			);
+			name = MoviEZUITests;
+			productName = MoviEZUITests;
+			productReference = 80422A272726DEAF00F33EF4 /* MoviEZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80422A052726DEAC00F33EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					80422A0C2726DEAC00F33EF4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					80422A1C2726DEAF00F33EF4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 80422A0C2726DEAC00F33EF4;
+					};
+					80422A262726DEAF00F33EF4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 80422A0C2726DEAC00F33EF4;
+					};
+				};
+			};
+			buildConfigurationList = 80422A082726DEAC00F33EF4 /* Build configuration list for PBXProject "MoviEZ" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80422A042726DEAC00F33EF4;
+			productRefGroup = 80422A0E2726DEAC00F33EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80422A0C2726DEAC00F33EF4 /* MoviEZ */,
+				80422A1C2726DEAF00F33EF4 /* MoviEZTests */,
+				80422A262726DEAF00F33EF4 /* MoviEZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80422A0B2726DEAC00F33EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80422A182726DEAE00F33EF4 /* Preview Assets.xcassets in Resources */,
+				80422A152726DEAE00F33EF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80422A1B2726DEAF00F33EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80422A252726DEAF00F33EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80422A092726DEAC00F33EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80422A132726DEAC00F33EF4 /* ContentView.swift in Sources */,
+				80422A112726DEAC00F33EF4 /* MoviEZApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80422A192726DEAF00F33EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80422A222726DEAF00F33EF4 /* MoviEZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80422A232726DEAF00F33EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80422A2E2726DEAF00F33EF4 /* MoviEZUITestsLaunchTests.swift in Sources */,
+				80422A2C2726DEAF00F33EF4 /* MoviEZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80422A1F2726DEAF00F33EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80422A0C2726DEAC00F33EF4 /* MoviEZ */;
+			targetProxy = 80422A1E2726DEAF00F33EF4 /* PBXContainerItemProxy */;
+		};
+		80422A292726DEAF00F33EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80422A0C2726DEAC00F33EF4 /* MoviEZ */;
+			targetProxy = 80422A282726DEAF00F33EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80422A2F2726DEAF00F33EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80422A302726DEAF00F33EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80422A322726DEAF00F33EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoviEZ/Preview Content\"";
+				DEVELOPMENT_TEAM = L4YP8ZJGXX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeRivera.MoviEZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80422A332726DEAF00F33EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoviEZ/Preview Content\"";
+				DEVELOPMENT_TEAM = L4YP8ZJGXX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeRivera.MoviEZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80422A352726DEAF00F33EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4YP8ZJGXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeRivera.MoviEZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoviEZ.app/MoviEZ";
+			};
+			name = Debug;
+		};
+		80422A362726DEAF00F33EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4YP8ZJGXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeRivera.MoviEZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoviEZ.app/MoviEZ";
+			};
+			name = Release;
+		};
+		80422A382726DEAF00F33EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4YP8ZJGXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeRivera.MoviEZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoviEZ;
+			};
+			name = Debug;
+		};
+		80422A392726DEAF00F33EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4YP8ZJGXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.felipeRivera.MoviEZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoviEZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80422A082726DEAC00F33EF4 /* Build configuration list for PBXProject "MoviEZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80422A2F2726DEAF00F33EF4 /* Debug */,
+				80422A302726DEAF00F33EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80422A312726DEAF00F33EF4 /* Build configuration list for PBXNativeTarget "MoviEZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80422A322726DEAF00F33EF4 /* Debug */,
+				80422A332726DEAF00F33EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80422A342726DEAF00F33EF4 /* Build configuration list for PBXNativeTarget "MoviEZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80422A352726DEAF00F33EF4 /* Debug */,
+				80422A362726DEAF00F33EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80422A372726DEAF00F33EF4 /* Build configuration list for PBXNativeTarget "MoviEZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80422A382726DEAF00F33EF4 /* Debug */,
+				80422A392726DEAF00F33EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80422A052726DEAC00F33EF4 /* Project object */;
+}
