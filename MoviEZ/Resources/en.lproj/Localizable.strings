@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  MoviEZ
+
+  Created by Felipe Rivera on 25/10/21.
+  
+*/
+
+// HomeView Strings
+"app_title" = "MoviEZ";
+"movies_item_name" = "Movies";
+"more_item_name" = "More";
+"search_item_name" = "Search";
+
+// MovieView Strings
+"movies_popular" = "Popular";
+"movies_upcoming" = "Upcoming";
+"movies_top_rated" = "Top Rated";
+
+// error strings
+"invalid_error" = "Invalid request";
+"not_found_error" = "The data could not be found";
+"api_error" = "The server could not be reached";
+"internal_error" = "Internal error";
+
+// default strings
+"menu_title" = "Menu";
+"Retry_button" = "Retry";
+"cast_as" = "as";
+"cast_string" = "Cast";
+"directors_string" = "Director(s)";
+"producers_string" = "Producer(s)";
+"writers_string" = "Writer(s)";
+"search_placeholder" = "Search for a movie";
+"search_string" = "Search";
+
