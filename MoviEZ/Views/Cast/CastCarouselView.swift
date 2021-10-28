@@ -16,7 +16,7 @@ struct CastCarouselView: View {
         VStack(alignment: .leading, spacing: 0) {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 16) {
-                    ForEach(self.cast.prefix(8)) { artist in
+                    ForEach(self.cast.prefix(15)) { artist in
                         CastCardView(cast: artist)
                             .frame(width: 125, height: 200)
                             .padding(.leading, artist.id == self.cast.first!.id ? 16 : 0)
