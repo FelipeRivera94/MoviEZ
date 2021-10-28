@@ -28,7 +28,11 @@ struct CastCardView: View {
                 .cornerRadius(30)
             let asString = NSLocalizedString("cast_as", comment: "")
             Text("\(cast.name) \(asString)")
+                .scaledToFit()
+                .minimumScaleFactor(0.5)
             Text("\(cast.character)").fontWeight(.bold)
+                .scaledToFit()
+                .minimumScaleFactor(0.5)
         }.lineLimit(1)
         .onAppear {
             self.imageLoader.loadImage(with: self.cast.profileURL)
