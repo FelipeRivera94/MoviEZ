@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  MoviEZ
+//
+//  Created by Felipe Rivera on 25/10/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+API_KEY = 8443fc94e504c0a1ff90f12b7e309976
