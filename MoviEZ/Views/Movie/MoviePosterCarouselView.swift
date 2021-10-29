@@ -12,6 +12,8 @@ struct MoviePosterCarouselView: View {
     let title: String
     //movie
     let movies: [Movie]
+    // filter
+    @Binding var text: String
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -21,7 +23,9 @@ struct MoviePosterCarouselView: View {
                 .padding(.horizontal)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 16){
-                    ForEach(self.movies) { movie in
+                    ForEach(self.movies.filter({ movie in
+                        self.text.isEmpty ? true : movie.title.contains(text)
+                    })) { movie in
                         NavigationLink(destination: MovieDetailsView(movieId: movie.id)) {
                             MoviePosterView(movie: movie)
                         }
@@ -35,8 +39,4 @@ struct MoviePosterCarouselView: View {
     }
 }
 
-struct MoviePosterCarouselView_Previews: PreviewProvider {
-    static var previews: some View {
-        MoviePosterCarouselView(title: "test", movies:Movie.testMovies)
-    }
-}
+

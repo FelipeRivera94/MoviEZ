@@ -29,10 +29,6 @@ struct MoviePosterView: View {
                     .shadow(radius: 4)
             }
         }
-        .padding(.top)
-        .padding(.bottom)
-        .padding(.leading)
-        .padding(.trailing)
         .onAppear {
             self.imageLoader.loadImage(with: self.movie.posterURL)
         }
