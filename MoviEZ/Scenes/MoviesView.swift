@@ -19,7 +19,7 @@ struct MoviesView: View {
     var body: some View {
         NavigationView {
             VStack {
-                SearchBarView(placeholder: NSLocalizedString("search_placeholder", comment:""), text: $text).onChange(of: text) { newValue in
+                SearchBarView(placeholder: NSLocalizedString("searchIn_string", comment:""), text: $text).onChange(of: text) { newValue in
                     self.moviesState.loadMovies(with: selectedCategory)
                 }
                 Picker("", selection: $selectedCategory) {
