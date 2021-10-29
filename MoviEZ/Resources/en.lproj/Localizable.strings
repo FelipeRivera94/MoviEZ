@@ -21,7 +21,7 @@
 "invalid_error" = "Invalid request";
 "not_found_error" = "The data could not be found";
 "api_error" = "The server could not be reached";
-"internal_error" = "Internal error";
+"internal_error" = "Network connection failed";
 
 // default strings
 "menu_title" = "Menu";

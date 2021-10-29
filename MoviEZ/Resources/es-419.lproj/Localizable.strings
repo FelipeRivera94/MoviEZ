@@ -20,7 +20,7 @@
 "invalid_error" = "Peticion inválida";
 "not_found_error" = "El dato no pudo ser encontrado";
 "api_error" = "El servidor no pudo ser alcanzado";
-"internal_error" = "Error interno";
+"internal_error" = "Fallo de conexión a Internet";
 
 // default strings
 "menu_title" = "Menú";
