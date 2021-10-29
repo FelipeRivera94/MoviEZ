@@ -48,6 +48,7 @@
 		8063B84327298F15000808A9 /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 8063B84227298F15000808A9 /* movie_list.json */; };
 		8063B84727299CE7000808A9 /* CastCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063B84627299CE7000808A9 /* CastCardView.swift */; };
 		8063B84B2729AA8A000808A9 /* CastCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063B84A2729AA8A000808A9 /* CastCarouselView.swift */; };
+		808B6C35272C4ED300FC8600 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808B6C34272C4ED300FC8600 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		8063B84227298F15000808A9 /* movie_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_list.json; sourceTree = "<group>"; };
 		8063B84627299CE7000808A9 /* CastCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastCardView.swift; sourceTree = "<group>"; };
 		8063B84A2729AA8A000808A9 /* CastCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastCarouselView.swift; sourceTree = "<group>"; };
+		808B6C34272C4ED300FC8600 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		80422A162726DEAE00F33EF4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				808B6C34272C4ED300FC8600 /* Launch Screen.storyboard */,
 				80422A172726DEAE00F33EF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -443,6 +446,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808B6C35272C4ED300FC8600 /* Launch Screen.storyboard in Resources */,
 				80422A182726DEAE00F33EF4 /* Preview Assets.xcassets in Resources */,
 				80422A452726E5B100F33EF4 /* Localizable.strings in Resources */,
 				8063B84127298F0F000808A9 /* movie_info.json in Resources */,
@@ -687,7 +691,7 @@
 				INFOPLIST_FILE = MoviEZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -719,7 +723,7 @@
 				INFOPLIST_FILE = MoviEZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
