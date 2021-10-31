@@ -10,24 +10,46 @@ import XCTest
 
 class MoviEZTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    let moviesList = MovieListPublisher()
+    let movieDetails = MovieDetailsPublisher()
+    
+    
+    func testGetMovies() {
+        moviesList.loadMovies(with: .popular)
+        guard moviesList.movies != nil else {
+            XCTFail()
+            return
+        }
+        XCTAssert(!moviesList.movies!.isEmpty, "Error in popular movies")
+        moviesList.loadMovies(with: .upcoming)
+        guard moviesList.movies != nil else {
+            XCTFail()
+            return
+        }
+        XCTAssert(!moviesList.movies!.isEmpty, "Error in upcoming movies")
+        moviesList.loadMovies(with: .topRated)
+        guard moviesList.movies != nil else {
+            XCTFail()
+            return
+        }
+        XCTAssert(!moviesList.movies!.isEmpty, "Error in top rated movies")
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func testGetMovie(){
+        movieDetails.loadMovie(id: 338762)
+        guard movieDetails.movie != nil else {
+            XCTFail()
+            return
+        }
+        movieDetails.loadCredits(id: 338762)
+        guard movieDetails.credits != nil else {
+            XCTFail()
+            return
+        }
+        movieDetails.loadTrailers(id: 338762)
+        guard movieDetails.trailers != nil else {
+            XCTFail()
+            return
         }
     }
-
 }
