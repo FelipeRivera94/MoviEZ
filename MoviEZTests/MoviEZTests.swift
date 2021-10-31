@@ -41,12 +41,12 @@ class MoviEZTests: XCTestCase {
             XCTFail()
             return
         }
-        movieDetails.loadCredits(id: 338762)
+        movieDetails.loadCredits(movieId: 338762)
         guard movieDetails.credits != nil else {
             XCTFail()
             return
         }
-        movieDetails.loadTrailers(id: 338762)
+        movieDetails.loadTrailers(movieId: 338762)
         guard movieDetails.trailers != nil else {
             XCTFail()
             return
